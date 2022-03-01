@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "lib": ["es2015"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "_td_database",
+        "_td_files"
+    ]
+}

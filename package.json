@@ -1,0 +1,22 @@
+{
+  "name": "airstrike_alarm",
+  "version": "1.0.0",
+  "description": "Node.js+TDLib airstrike alarms scraper",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "main": "npm run compile && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1"
+  },
+  "devDependencies": {
+    "tdlib-types": "^0.1001008.1",
+    "typescript": "^4.5.5"
+  }
+}
